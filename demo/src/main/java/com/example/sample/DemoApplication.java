@@ -16,7 +16,7 @@ public class DemoApplication {
 
 	@RequestMapping
 	public String demo(String name) {
-		return "Hello " + (name == null ? "World!" : name + "!");
+		return "HELLO " + (name == null ? "World!" : name + "!");
 	}
 
 }
